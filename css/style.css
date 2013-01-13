@@ -48,6 +48,12 @@ h3 {
   font-size: 18px;
   color: #06a;
 }
+ul {
+  margin-left: 40px;
+}
+li {
+  margin-bottom: 10px;
+}
 p a:link,
 p a:visited {
   color: #06a;
@@ -91,7 +97,9 @@ strong {
   width: 960px;
 }
 #intro p,
-#main p {
+#main p,
+#intro li,
+#main li {
   color: #555;
   font-family: "Georgia";
   font-weight: 100;
@@ -274,6 +282,10 @@ header nav a:visited:hover {
   }
   #home #intro section p {
     font-size: 23px;
+  }
+  iframe {
+    width: 500px;
+    height: 280px;
   }
 }
 @media (max-width: 768px) {

@@ -1,14 +1,39 @@
-extends internal
-block content
-  :markdown
+include includes/head
 
-    # Current bond information
+body#in
+  .outer
+    include includes/nav
+    #main
+      section
+        h1 Current bond information
+        :markdown
 
-    ## What we have here
-    Current Bond info: (where it says x,y,z maybe write something like (learn more about what will be on your ballot February 12, 2013.   Please add a link to the PSD website with lots of good info on the bond.  
+          ## Overview
+          Pasco School District’s Board of Directors voted unanimously to place a bond initiative on the February 12, 2013 ballot.
 
-    http://www.psd1.org/domain/85 
+          - The debt amount of the proposed bond is $46.8 million.
+          - The estimated rate for taxpayers is .34 cents per $1,000 of assessed value, or $34 per year for a $100,000 property.
+          - The district qualifies for an estimated $38.1 million in State matching dollars, if voters approve the election.
+ 
+          Major projects will be the construction of three large elementary schools.
 
-    Add information from the fact sheet I am emailing you and the power point presentation.  Not sure the best way to do this, frankly.
+          Smaller projects would be prioritized based on need and funds available and could include the relocation of New Horizons High School, site improvements to Stevens Middle School, land purchases for future elementary, middle and high school sites, Twain pick up and drop off improvements and upgrades to mechanical systems at  older schools.
 
-    []()
+          ## A video overview of the bond
+
+        iframe(style="margin-bottom: 20px;", src="http://www.youtube.com/embed/VDGm9flROio", frameborder="0", allowfullscreen)
+
+        :markdown
+
+          ## More information
+
+          There is a thorough collection of information at [Pasco School District's Bond information page](http://www.psd1.org/domain/85).
+
+          Additionally, here's a [presentation file](/files/2013-Bond-Election.pdf) walking through the details of the new bond.
+
+          Please contact us at [pascocaresforkids@gmail.com]](mailto:pascocaresforkids@gmail.com) for more information.
+
+      include includes/fb  
+    include includes/more-info
+
+include includes/fbscript    
